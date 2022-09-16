@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"name": "AAA",
+		"address": "1, aaa",
+		"pincode": 11111
+	},
+	{
+		"id": 2,
+		"name": "BBB",
+		"address": "2, bbb",
+		"pincode": 22222
+	}
+]

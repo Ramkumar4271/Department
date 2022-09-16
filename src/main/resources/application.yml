@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active:
+    - dev
+    
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "info"
+        - "health"
+        - "features"
+        
+info:
+  app:
+    name: Department Application
+    version: 1.0.0
+  author: Ramkumar     
